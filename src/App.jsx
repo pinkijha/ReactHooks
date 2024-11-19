@@ -20,8 +20,8 @@ function App() {
   return (
     <>
       <h1>Count: {count} </h1>
-      <button onClick={clickHandler} > Increase </button>
-      <button onClick={clickHandler1} > Decrease</button>
+      <button style={{color:'white', backgroundColor:'green', margin: '10px'}} onClick={clickHandler} > Increase </button>
+      <button style={{color:'white', backgroundColor:'red'}} onClick={clickHandler1} > Decrease</button>
     </>
   )
 }
