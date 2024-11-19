@@ -1,16 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [color, setColor] = useState('Blue')
+
+  const clickHandler = () => {
+    
+    setColor(color === 'Blue' ? 'Red' : 'Blue');
+
+  }
+ 
 
   return (
     <>
-      <div>
-      <p>hello</p>
-      </div>
+      <h1>My favourite color is {color}</h1>
+      <button onClick={clickHandler} >{color === 'Blue' ? 'Red' : 'Blue'}</button>
     </>
   )
 }
