@@ -1,5 +1,6 @@
 
 import './App.css'
+import CustomHooks from './components/CustomHooks'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import UseCallBack from './components/UseCallBack'
@@ -29,7 +30,8 @@ function App() {
       {/* <Header/>
       <Footer/> */}
       {/* <UseReducer/> */}
-      <UseLayout/>
+      {/* <UseLayout/> */}
+      <CustomHooks/>
     </>
   )
 }
