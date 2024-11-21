@@ -5,6 +5,7 @@ import Header from './components/Header'
 import UseCallBack from './components/UseCallBack'
 import UseContext from './components/UseContext'
 import UseEffect from './components/UseEffect'
+import UseLayout from './components/UseLayout'
 import UseMemo from './components/UseMemo'
 import UseMemoHooks from './components/UseMemoHooks'
 import UseReducer from './components/UseReducer'
@@ -27,7 +28,8 @@ function App() {
       {/* <UseCallBack/> */}
       {/* <Header/>
       <Footer/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      <UseLayout/>
     </>
   )
 }
