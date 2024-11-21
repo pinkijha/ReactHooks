@@ -7,4 +7,6 @@
     - useMemo hooks
     - useCallBack hooks
     - useContext hooks
-    - 
+    - useReducer hooks
+    - useLayoutEffect hooks
+    - Custom hooks
