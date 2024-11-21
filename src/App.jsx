@@ -1,6 +1,9 @@
 
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
 import UseCallBack from './components/UseCallBack'
+import UseContext from './components/UseContext'
 import UseEffect from './components/UseEffect'
 import UseMemo from './components/UseMemo'
 import UseMemoHooks from './components/UseMemoHooks'
@@ -20,8 +23,9 @@ function App() {
       {/* <UseRef/> */}
       {/* <UseMemo/> */}
       {/* <UseMemoHooks/> */}
-      <UseCallBack/>
-
+      {/* <UseCallBack/> */}
+      <Header/>
+      <Footer/>
 
     </>
   )
