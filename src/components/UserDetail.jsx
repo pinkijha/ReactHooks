@@ -11,4 +11,6 @@ const UserDetail = () => {
   )
 }
 
-export default UserDetail
+export default UserDetail;
+
+

@@ -12,6 +12,7 @@ import UseMemoHooks from './components/UseMemoHooks'
 import UseReducer from './components/UseReducer'
 import UseRef from './components/UseRef'
 import UseState1 from './components/useState1'
+import Counter from './hooks/useState/Counter'
 
 function App() {
   
@@ -31,7 +32,8 @@ function App() {
       <Footer/> */}
       {/* <UseReducer/> */}
       {/* <UseLayout/> */}
-      <CustomHooks/>
+      {/* <CustomHooks/> */}
+      <Counter/>
     </>
   )
 }
