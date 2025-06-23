@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -11,6 +11,19 @@ const Counter = () => {
     confirmPassword: "",
   })
   const [formSubmitted, setFormSubmitted] = useState(null);
+
+//   use useEffect foe store data in local storage
+ useEffect (() => {
+    const savedName = localStorage.getItem("name");
+    if(savedName){
+        setName(savedName);
+    }
+ },[])
+
+//  use useEffect for save data in local storage
+useEffect(() => {
+    localStorage.setItem("name", name);
+},[name])
 
 //   funstion for handling form data
 const handleChange = (e) =>{
